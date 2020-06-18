@@ -6,7 +6,7 @@ ${FirefoxBrowser}    ff
 *** Test Cases ***
 Cross Browser Testing with Firefox Browser
     [Documentation]    FireFox Browser with Amazon web site
-    Open Browser    ${URL}    ${FirefoxBrowser}   None	http://10.100.20.147:4444/wd/hub
+    Open Browser    ${URL}    ${FirefoxBrowser}   None	http://10.100.20.113:4444/wd/hub
     
 Get Amazon title
     Sleep    5s    
